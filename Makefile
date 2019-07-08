@@ -2,7 +2,7 @@ CC = gcc
 
 CFLAGS = -g3 -O0 -fsanitize=undefined
 
-SRCS = filter.c tree.c queue.c hash.c utils.c
+SRCS = filter.c bloom.c tree.c queue.c hash.c utils.c
 
 OBJS = $(SRCS:.c=.o)
 
